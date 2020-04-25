@@ -1,0 +1,13 @@
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\bin\Debug\serverSocketTest.exe
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\bin\Debug\serverSocketTest.pdb
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\serverSocketTest.Properties.Resources.resources
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\serverSocketTest.exe
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\serverSocketTest.pdb
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\serverSocketTest.Form_home.resources
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\bin\Debug\serverSocketTest.exe.manifest
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\bin\Debug\serverSocketTest.application
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\serverSocketTest.exe.manifest
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\serverSocketTest.application

@@ -1,0 +1,15 @@
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\bin\Debug\ConnectControl.exe.manifest
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\bin\Debug\ConnectControl.application
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\bin\Debug\ConnectControl.exe
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\bin\Debug\ConnectControl.pdb
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\ConnectControl.Form_home.resources
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\ConnectControl.Properties.Resources.resources
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\ConnectControl.exe.manifest
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\ConnectControl.application
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\ConnectControl.exe
+C:\Workspaces\VisualStudio2010Project\chartweb\serverSocketTest\obj\x86\Debug\ConnectControl.pdb
+C:\Workspaces\VisualStudio2010Project\myprogram\serverSocketTest\obj\x86\Debug\ConnectControl.exe
+C:\Workspaces\VisualStudio2010Project\myprogram\serverSocketTest\obj\x86\Debug\ConnectControl.pdb

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="ConnectControl.exe" version="1.0.0.2" publicKeyToken="2e56138fd3a07303" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="pipe_128px_1205114_easyicon.net.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ConnectControl" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ConnectControl.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MySql.Data" version="6.9.9.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConnectControl.exe" size="158208">
+      <assemblyIdentity name="ConnectControl" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>3kqi1UEmSnrmzDHpTGCOrmRR6pM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="pipe_128px_1205114_easyicon.net.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7bE1iqPj6tVN8l6o0ezKXT1zjCs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WIN-644CMPEN5SD\nemo" issuerKeyHash="6f9b3d78ffde0b805d590886755e1e7e801e32fb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ofwXKQrLWDup6YR6hb3zezF4fEk=</DigestValue></Reference></SignedInfo><SignatureValue>Cxip93/Xyvs2wLbSI2Gsu6aDiksX9Lyy20VuN9Ayu4Apdpgr2UPrkXU6BcpbosNuv20xjeFAAohVIxRecFAVDX3vFvEHuvqisqPtharj2sVdFzJDFOrVAiyCNMnkKL34cQH5w+AuUsZzKRYxZKuFqIOMyhx7CfXrtMVLnnKK1vw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1ZJqR2DE6bgO8jwFllZSZBpviKIanXJZhxW2ImJv78MlM+4zp4JnC8prEVaNhr8J9ElJpC7JE0zLiyKBdf9GZPE4Pc3D44F2vl5yfcQ/AUpEmJHrO0lPUHVg6kxjTrKQMYzr5EtTS8muifkODlRPqIsxX2znpLBd7BJiL9RNsZU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="497c78317bf3bd857a84e9a93b58cb0a2917fca1" Description="" Url=""><as:assemblyIdentity name="ConnectControl.exe" version="1.0.0.2" publicKeyToken="2e56138fd3a07303" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WIN-644CMPEN5SD\nemo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>UPV1+Z3ahNhpg6kGpLsPNRJDbH0=</DigestValue></Reference></SignedInfo><SignatureValue>KSjksGZ4ae+Rxk3xTNJ3ii/U+Kzqw9nkBkSs0Fy9n+cxAxx/cO6scijTH2m81ysBxLwBYgl2H14SA94XS6Gd1/dSYYhMqzdW4V5EUUQz4rzUlqTEyp2MGQE4qWgji5/xctuv4j1X9WlgrCyqXHztvxziitZ8W3nhK7Z4apuX2Uk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1ZJqR2DE6bgO8jwFllZSZBpviKIanXJZhxW2ImJv78MlM+4zp4JnC8prEVaNhr8J9ElJpC7JE0zLiyKBdf9GZPE4Pc3D44F2vl5yfcQ/AUpEmJHrO0lPUHVg6kxjTrKQMYzr5EtTS8muifkODlRPqIsxX2znpLBd7BJiL9RNsZU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQMZCOZQHDr7dCU8UQn9JR8DANBgkqhkiG9w0BAQUFADAzMTEwLwYDVQQDHigAVwBJAE4ALQA2ADQANABDAE0AUABFAE4ANQBTAEQAXABuAGUAbQBvMB4XDTE4MDMxMTE3MTEzMVoXDTE5MDMxMTIzMTEzMVowMzExMC8GA1UEAx4oAFcASQBOAC0ANgA0ADQAQwBNAFAARQBOADUAUwBEAFwAbgBlAG0AbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1ZJqR2DE6bgO8jwFllZSZBpviKIanXJZhxW2ImJv78MlM+4zp4JnC8prEVaNhr8J9ElJpC7JE0zLiyKBdf9GZPE4Pc3D44F2vl5yfcQ/AUpEmJHrO0lPUHVg6kxjTrKQMYzr5EtTS8muifkODlRPqIsxX2znpLBd7BJiL9RNsZUCAwEAATANBgkqhkiG9w0BAQUFAAOBgQAx3KUmF+YxG5QRKC9qIezUVKTsxwtcCmS6E3J19te4FQmpHOGN+c2pezQI0oh4MMH6IWymL8LJN7cLZw1Hh7RihRk4MBEBXL7s5ZGVEpp66jZBgvq25Pj/YX9QeG0Q/AUSDO7ilmxxRjOuM08hlFCqFX+VCMRyuSxirHj0NbGVoQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
